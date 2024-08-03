@@ -21,6 +21,9 @@
 <p>appKey: {appKey}</p>
 <p>appName: {appName}</p>
 
+<a href="/" target="_top">View page without iframe</a>
+<a href="/iframe" target="_top">View page in iframe</a>
+
 <button
   on:click={() => window.open(window.location.href, "_system", "location=yes")}
   >Open in _system browser</button
